@@ -1,0 +1,169 @@
+@import '../sprites/position-icons';
+@import 'position-more';
+.position-section {
+    padding: 30px 20px;
+    border-bottom: 1px solid #516e7e;
+    &:first-of-type {
+        .position-list {
+            justify-content: flex-start;
+        }
+    }
+    &__title {
+        margin: 0;
+        margin-bottom: 20px;
+        font-weight: normal;
+        font-size: 16px;
+        color: #ff3466;
+    }
+    .position-list {
+        list-style: none;
+        padding-left: 5px;
+        padding-right: 5px;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        .position-item {
+            position: relative;
+            padding-top: 37px;
+            margin-right: 25px;
+            display: inline-block;
+            vertical-align: middle;
+            color: #9cadb6;
+            font-size: 12px;
+            font-weight: 300;
+            cursor: pointer;
+            user-select: none;
+            &:before {
+                content: '';
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+            &__duplicate {
+                &:before {
+                    left: 8px;
+                    @include retina-sprite($duplicate-group);
+                }
+            }
+            &__delete {
+                &:before {
+                    left: 6px;
+                    @include retina-sprite($trash-group);
+                }
+            }
+            &__group {
+                &:before {
+                    left: 2px;
+                    @include retina-sprite($group-group);
+                }
+            }
+            &__dissociate {
+                &:before {
+                    left: 1px;
+                    @include retina-sprite($dissociate-group);
+                }
+            }
+            &__order {
+                &:before {
+                    left: 3px;
+                    @include retina-sprite($order-group);
+                }
+            }
+            &__vertical {
+                &:before {
+                    left: 3px;
+                    @include retina-sprite($vertical-group);
+                }
+            }
+            &__horizontal {
+                &:before {
+                    left: 13px;
+                    @include retina-sprite($horizontal-group);
+                }
+            }
+            &__rotate {
+                &:before {
+                    left: 9px;
+                    @include retina-sprite($rotate-group);
+                }
+            }
+            &__left {
+                &:before {
+                    left: 8px;
+                    @include retina-sprite($left-group);
+                }
+            }
+            &__center {
+                &:before {
+                    left: 6px;
+                    @include retina-sprite($center-group);
+                }
+            }
+            &__right {
+                &:before {
+                    left: 4px;
+                    @include retina-sprite($right-group);
+                }
+            }
+            &__top {
+                &:before {
+                    left: 1px;
+                    @include retina-sprite($top-group);
+                }
+            }
+            &__middle {
+                &:before {
+                    left: 4px;
+                    @include retina-sprite($middle-group);
+                }
+            }
+            &__bottom {
+                &:before {
+                    left: -1px;
+                    @include retina-sprite($bottom-group);
+                }
+            }
+            &:hover {
+                color: #da7587;
+            }
+            &:active {
+                color: #ff3466;
+            }
+            &:last-of-type {
+                margin-right: 0;
+            }
+        }
+    }
+    &.position-inputs {
+        padding-bottom: 13px;
+        border-bottom: none;
+        .position-section__title {
+            padding-bottom: 20px;
+        }
+        .position-list {
+            padding: 0;
+            flex-wrap: wrap;
+        }
+        .position-item {
+            width: 50%;
+            margin: 0;
+            margin-bottom: 17px;
+            padding: 0;
+            cursor: default;
+            display: flex;
+            align-items: center;
+            &__label {
+                font-size: 12px;
+                padding-right: 10px;
+            }
+            &__input {
+                padding: 7px;
+                width: 70%;
+                border: none;
+                appearance: none;
+                background-color: #395b6d;
+                color: #9cadb6;
+            }
+        }
+    }
+}

@@ -1,0 +1,54 @@
+@import 'position-section';
+.position-box {
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    box-shadow: -1px -1px 12px 1px rgba(0, 0, 0, 0.3);
+    background-color: #2b5063;
+    width: 230px;
+    &__title {
+        margin: 0;
+        padding-top: 17px;
+        padding-bottom: 17px;
+        padding-left: 14px;
+        color: #fff;
+        font-size: 16px;
+        text-transform: uppercase;
+        background-color: #46748b;
+        font-weight: normal;
+        cursor: pointer;
+    }
+    &__close {
+        position: absolute;
+        top: 7px;
+        right: 0;
+        border: none;
+        background-color: transparent;
+        appearance: none;
+        cursor: pointer;
+        height: 30px;
+        width: 30px;
+        outline: none;
+        &:hover {
+            &:before,
+            &:after {
+                background-color: #ff3466;
+            }
+        }
+        &:before,
+        &:after {
+            position: absolute;
+            top: 16px;
+            left: 5px;
+            content: '';
+            width: 15px;
+            height: 1px;
+            background-color: #fff;
+            transform: rotate(45deg);
+        }
+        &:after {
+            left: 5px;
+            transform: rotate(-45deg);
+        }
+    }
+}

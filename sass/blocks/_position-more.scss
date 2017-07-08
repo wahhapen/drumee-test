@@ -1,0 +1,16 @@
+.position-more {
+    width: 100%;
+    font-size: 28px;
+    border: none;
+    appearance: none;
+    background-color: #204050;
+    cursor: pointer;
+    color: #90a0a8;
+    outline: none;
+    &:hover {
+        color: #da7587;
+    }
+    &:active {
+        color: #ff3466;
+    }
+}

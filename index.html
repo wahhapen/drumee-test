@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="Content-Type" content="text/html">
+  <meta http-equiv="Content-Language" content="fr,en">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Drumee</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="head-menu">
+    <div class="head-avatar"><img src="./assets/avatar.png" alt="username"></div>
+    <button class="head-add">Ajouter</button>
+    <button class="head-button head-button__settings"></button>
+    <button class="head-button head-button__undo"></button>
+    <button class="head-button head-button__redo"></button>
+    <div class="head-name">Page d’accueil <button class="head-hide"></button></div>
+    <button class="head-button head-button__save"></button>
+    <button class="head-button head-button__ruler"></button>
+    <button class="head-button head-button__mobile"></button>
+    <button class="head-examine">Aperçu</button>
+  </header>
+  <main class="main-content">
+    <div class="position-box">
+      <h2 class="position-box__title">Placement</h2>
+      <button class="position-box__close"></button>
+      <section class="position-section">
+        <ul class="position-list">
+          <li class="position-item position-item__duplicate">Duplicate</li>
+          <li class="position-item position-item__delete">Delete</li>
+        </ul>
+      </section>
+      <section class="position-section">
+        <h3 class="position-section__title">Superposition</h3>
+        <ul class="position-list">
+          <li class="position-item position-item__group">Grouper</li>
+          <li class="position-item position-item__dissociate">Dissocier</li>
+          <li class="position-item position-item__order">Ordre</li>
+        </ul>
+      </section>
+      <section class="position-section">
+        <h3 class="position-section__title">Symétrie & Rotation</h3>
+        <ul class="position-list">
+          <li class="position-item position-item__vertical">Verticale</li>
+          <li class="position-item position-item__horizontal">Horizontale</li>
+          <li class="position-item position-item__rotate">Rotation</li>
+        </ul>
+      </section>
+      <section class="position-section">
+        <h3 class="position-section__title">Align. Horizontal</h3>
+        <ul class="position-list">
+          <li class="position-item position-item__left">Gauche</li>
+          <li class="position-item position-item__center">Centre</li>
+          <li class="position-item position-item__right">Droite</li>
+        </ul>
+      </section>
+      <section class="position-section">
+        <h3 class="position-section__title">Align. Vertical</h3>
+        <ul class="position-list">
+          <li class="position-item position-item__top">Haut</li>
+          <li class="position-item position-item__middle">Milieu</li>
+          <li class="position-item position-item__bottom">Bas</li>
+        </ul>
+      </section>
+      <section class="position-section position-inputs">
+        <h3 class="position-section__title">Positions</h3>
+        <ul class="position-list">
+          <li class="position-item"><label class="position-item__label" for="posX">X</label><input class="position-item__input" id="posX" type="number"></li>
+          <li class="position-item"><label class="position-item__label" for="posY">Y</label><input class="position-item__input" id="posX" type="number"></li>
+          <li class="position-item"><label class="position-item__label" for="posL">L</label><input class="position-item__input" id="posL" type="number"></li>
+          <li class="position-item"><label class="position-item__label" for="posH">h</label><input class="position-item__input" id="posH" type="number"></li>
+        </ul>
+      </section>
+      <button class="position-more">•••</button>
+    </div>
+  </main>
+</body>
+
+</html>

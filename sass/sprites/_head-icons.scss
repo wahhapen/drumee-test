@@ -1,0 +1,298 @@
+// SCSS variables are information about icon's compiled state, stored under its original file name
+//
+// .icon-home {
+//   width: $icon-home-width;
+// }
+//
+// The large array-like variables contain all information about a single icon
+// $icon-home: x y offset_x offset_y width height total_width total_height image_path;
+//
+// At the bottom of this section, we provide information about the spritesheet itself
+// $spritesheet: width height image $spritesheet-sprites;
+$eye-name: 'eye';
+$eye-x: 36px;
+$eye-y: 49px;
+$eye-offset-x: -36px;
+$eye-offset-y: -49px;
+$eye-width: 25px;
+$eye-height: 18px;
+$eye-total-width: 146px;
+$eye-total-height: 77px;
+$eye-image: './../assets/head-icons.png';
+$eye: (36px, 49px, -36px, -49px, 25px, 18px, 146px, 77px, './../assets/head-icons.png', 'eye', );
+$mobile-name: 'mobile';
+$mobile-x: 90px;
+$mobile-y: 0px;
+$mobile-offset-x: -90px;
+$mobile-offset-y: 0px;
+$mobile-width: 24px;
+$mobile-height: 35px;
+$mobile-total-width: 146px;
+$mobile-total-height: 77px;
+$mobile-image: './../assets/head-icons.png';
+$mobile: (90px, 0px, -90px, 0px, 24px, 35px, 146px, 77px, './../assets/head-icons.png', 'mobile', );
+$redo-name: 'redo';
+$redo-x: 122px;
+$redo-y: 0px;
+$redo-offset-x: -122px;
+$redo-offset-y: 0px;
+$redo-width: 24px;
+$redo-height: 30px;
+$redo-total-width: 146px;
+$redo-total-height: 77px;
+$redo-image: './../assets/head-icons.png';
+$redo: (122px, 0px, -122px, 0px, 24px, 30px, 146px, 77px, './../assets/head-icons.png', 'redo', );
+$ruler-name: 'ruler';
+$ruler-x: 49px;
+$ruler-y: 0px;
+$ruler-offset-x: -49px;
+$ruler-offset-y: 0px;
+$ruler-width: 33px;
+$ruler-height: 33px;
+$ruler-total-width: 146px;
+$ruler-total-height: 77px;
+$ruler-image: './../assets/head-icons.png';
+$ruler: (49px, 0px, -49px, 0px, 33px, 33px, 146px, 77px, './../assets/head-icons.png', 'ruler', );
+$save-name: 'save';
+$save-x: 0px;
+$save-y: 49px;
+$save-offset-x: 0px;
+$save-offset-y: -49px;
+$save-width: 28px;
+$save-height: 28px;
+$save-total-width: 146px;
+$save-total-height: 77px;
+$save-image: './../assets/head-icons.png';
+$save: (0px, 49px, 0px, -49px, 28px, 28px, 146px, 77px, './../assets/head-icons.png', 'save', );
+$settings-name: 'settings';
+$settings-x: 0px;
+$settings-y: 0px;
+$settings-offset-x: 0px;
+$settings-offset-y: 0px;
+$settings-width: 41px;
+$settings-height: 41px;
+$settings-total-width: 146px;
+$settings-total-height: 77px;
+$settings-image: './../assets/head-icons.png';
+$settings: (0px, 0px, 0px, 0px, 41px, 41px, 146px, 77px, './../assets/head-icons.png', 'settings', );
+$undo-name: 'undo';
+$undo-x: 122px;
+$undo-y: 38px;
+$undo-offset-x: -122px;
+$undo-offset-y: -38px;
+$undo-width: 24px;
+$undo-height: 29px;
+$undo-total-width: 146px;
+$undo-total-height: 77px;
+$undo-image: './../assets/head-icons.png';
+$undo: (122px, 38px, -122px, -38px, 24px, 29px, 146px, 77px, './../assets/head-icons.png', 'undo', );
+$eye-2x-name: 'eye@2x';
+$eye-2x-x: 72px;
+$eye-2x-y: 98px;
+$eye-2x-offset-x: -72px;
+$eye-2x-offset-y: -98px;
+$eye-2x-width: 50px;
+$eye-2x-height: 36px;
+$eye-2x-total-width: 292px;
+$eye-2x-total-height: 154px;
+$eye-2x-image: './../assets/head-icons@2x.png';
+$eye-2x: (72px, 98px, -72px, -98px, 50px, 36px, 292px, 154px, './../assets/head-icons@2x.png', 'eye@2x', );
+$mobile-2x-name: 'mobile@2x';
+$mobile-2x-x: 180px;
+$mobile-2x-y: 0px;
+$mobile-2x-offset-x: -180px;
+$mobile-2x-offset-y: 0px;
+$mobile-2x-width: 48px;
+$mobile-2x-height: 70px;
+$mobile-2x-total-width: 292px;
+$mobile-2x-total-height: 154px;
+$mobile-2x-image: './../assets/head-icons@2x.png';
+$mobile-2x: (180px, 0px, -180px, 0px, 48px, 70px, 292px, 154px, './../assets/head-icons@2x.png', 'mobile@2x', );
+$redo-2x-name: 'redo@2x';
+$redo-2x-x: 244px;
+$redo-2x-y: 0px;
+$redo-2x-offset-x: -244px;
+$redo-2x-offset-y: 0px;
+$redo-2x-width: 48px;
+$redo-2x-height: 60px;
+$redo-2x-total-width: 292px;
+$redo-2x-total-height: 154px;
+$redo-2x-image: './../assets/head-icons@2x.png';
+$redo-2x: (244px, 0px, -244px, 0px, 48px, 60px, 292px, 154px, './../assets/head-icons@2x.png', 'redo@2x', );
+$ruler-2x-name: 'ruler@2x';
+$ruler-2x-x: 98px;
+$ruler-2x-y: 0px;
+$ruler-2x-offset-x: -98px;
+$ruler-2x-offset-y: 0px;
+$ruler-2x-width: 66px;
+$ruler-2x-height: 66px;
+$ruler-2x-total-width: 292px;
+$ruler-2x-total-height: 154px;
+$ruler-2x-image: './../assets/head-icons@2x.png';
+$ruler-2x: (98px, 0px, -98px, 0px, 66px, 66px, 292px, 154px, './../assets/head-icons@2x.png', 'ruler@2x', );
+$save-2x-name: 'save@2x';
+$save-2x-x: 0px;
+$save-2x-y: 98px;
+$save-2x-offset-x: 0px;
+$save-2x-offset-y: -98px;
+$save-2x-width: 56px;
+$save-2x-height: 56px;
+$save-2x-total-width: 292px;
+$save-2x-total-height: 154px;
+$save-2x-image: './../assets/head-icons@2x.png';
+$save-2x: (0px, 98px, 0px, -98px, 56px, 56px, 292px, 154px, './../assets/head-icons@2x.png', 'save@2x', );
+$settings-2x-name: 'settings@2x';
+$settings-2x-x: 0px;
+$settings-2x-y: 0px;
+$settings-2x-offset-x: 0px;
+$settings-2x-offset-y: 0px;
+$settings-2x-width: 82px;
+$settings-2x-height: 82px;
+$settings-2x-total-width: 292px;
+$settings-2x-total-height: 154px;
+$settings-2x-image: './../assets/head-icons@2x.png';
+$settings-2x: (0px, 0px, 0px, 0px, 82px, 82px, 292px, 154px, './../assets/head-icons@2x.png', 'settings@2x', );
+$undo-2x-name: 'undo@2x';
+$undo-2x-x: 244px;
+$undo-2x-y: 76px;
+$undo-2x-offset-x: -244px;
+$undo-2x-offset-y: -76px;
+$undo-2x-width: 48px;
+$undo-2x-height: 58px;
+$undo-2x-total-width: 292px;
+$undo-2x-total-height: 154px;
+$undo-2x-image: './../assets/head-icons@2x.png';
+$undo-2x: (244px, 76px, -244px, -76px, 48px, 58px, 292px, 154px, './../assets/head-icons@2x.png', 'undo@2x', );
+$sp-head-icons-width: 146px;
+$sp-head-icons-height: 77px;
+$sp-head-icons-image: './../assets/head-icons.png';
+$sp-head-icons-sprites: ($eye, $mobile, $redo, $ruler, $save, $settings, $undo, );
+$sp-head-icons: (146px, 77px, './../assets/head-icons.png', $sp-head-icons-sprites, );
+$retina-spritesheet-width: 292px;
+$retina-spritesheet-height: 154px;
+$retina-spritesheet-image: './../assets/head-icons@2x.png';
+$retina-spritesheet-sprites: ($eye-2x, $mobile-2x, $redo-2x, $ruler-2x, $save-2x, $settings-2x, $undo-2x, );
+$retina-spritesheet: (292px, 154px, './../assets/head-icons@2x.png', $retina-spritesheet-sprites, );
+
+// These "retina group" variables are mappings for the naming and pairing of normal and retina sprites.
+//
+// The list formatted variables are intended for mixins like `retina-sprite` and `retina-sprites`.
+$eye-group-name: 'eye';
+$eye-group: ('eye', $eye, $eye-2x, );
+$mobile-group-name: 'mobile';
+$mobile-group: ('mobile', $mobile, $mobile-2x, );
+$redo-group-name: 'redo';
+$redo-group: ('redo', $redo, $redo-2x, );
+$ruler-group-name: 'ruler';
+$ruler-group: ('ruler', $ruler, $ruler-2x, );
+$save-group-name: 'save';
+$save-group: ('save', $save, $save-2x, );
+$settings-group-name: 'settings';
+$settings-group: ('settings', $settings, $settings-2x, );
+$undo-group-name: 'undo';
+$undo-group: ('undo', $undo, $undo-2x, );
+$retina-groups: ($eye-group, $mobile-group, $redo-group, $ruler-group, $save-group, $settings-group, $undo-group, );
+
+// The provided mixins are intended to be used with the array-like variables
+//
+// .icon-home {
+//   @include sprite-width($icon-home);
+// }
+//
+// .icon-email {
+//   @include sprite($icon-email);
+// }
+//
+// Example usage in HTML:
+//
+// `display: block` sprite:
+// <div class="icon-home"></div>
+//
+// To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+//
+// // CSS
+// .icon {
+//   display: inline-block;
+// }
+//
+// // HTML
+// <i class="icon icon-home"></i>
+@mixin sprite-width($sprite) {
+  width: nth($sprite, 5);
+}
+
+@mixin sprite-height($sprite) {
+  height: nth($sprite, 6);
+}
+
+@mixin sprite-position($sprite) {
+  $sprite-offset-x: nth($sprite, 3);
+  $sprite-offset-y: nth($sprite, 4);
+  background-position: $sprite-offset-x  $sprite-offset-y;
+}
+
+@mixin sprite-image($sprite) {
+  $sprite-image: nth($sprite, 9);
+  background-image: url(#{$sprite-image});
+}
+
+@mixin sprite($sprite) {
+  @include sprite-image($sprite);
+  @include sprite-position($sprite);
+  @include sprite-width($sprite);
+  @include sprite-height($sprite);
+}
+
+// The `retina-sprite` mixin sets up rules and a media query for a sprite/retina sprite.
+//   It should be used with a "retina group" variable.
+//
+// The media query is from CSS Tricks: https://css-tricks.com/snippets/css/retina-display-media-query/
+//
+// $icon-home-group: ('icon-home', $icon-home, $icon-home-2x, );
+//
+// .icon-home {
+//   @include retina-sprite($icon-home-group);
+// }
+@mixin sprite-background-size($sprite) {
+  $sprite-total-width: nth($sprite, 7);
+  $sprite-total-height: nth($sprite, 8);
+  background-size: $sprite-total-width $sprite-total-height;
+}
+
+@mixin retina-sprite($retina-group) {
+  $normal-sprite: nth($retina-group, 2);
+  $retina-sprite: nth($retina-group, 3);
+  @include sprite($normal-sprite);
+
+  @media (-webkit-min-device-pixel-ratio: 2),
+         (min-resolution: 192dpi) {
+    @include sprite-image($retina-sprite);
+    @include sprite-background-size($normal-sprite);
+  }
+}
+
+// The `sprites` mixin generates identical output to the CSS template
+//   but can be overridden inside of SCSS
+//
+// @include sprites($spritesheet-sprites);
+@mixin sprites($sprites) {
+  @each $sprite in $sprites {
+    $sprite-name: nth($sprite, 10);
+    .#{$sprite-name} {
+      @include sprite($sprite);
+    }
+  }
+}
+
+// The `retina-sprites` mixin generates a CSS rule and media query for retina groups
+//   This yields the same output as CSS retina template but can be overridden in SCSS
+//
+// @include retina-sprites($retina-groups);
+@mixin retina-sprites($retina-groups) {
+  @each $retina-group in $retina-groups {
+    $sprite-name: nth($retina-group, 1);
+    .#{$sprite-name} {
+      @include retina-sprite($retina-group);
+    }
+  }
+}

@@ -1,0 +1,20 @@
+@import "normalize";
+@import "fonts";
+@import 'blocks/head-menu';
+@import 'blocks/position-box';
+
+html,
+body {
+    font-family: 'Source Sans Pro';
+    height: 100%;
+    * {
+        box-sizing: border-box;
+    }
+}
+body {
+    min-width: 1280px;
+}
+
+.main-content {
+    position: relative;
+}

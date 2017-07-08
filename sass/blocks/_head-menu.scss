@@ -1,0 +1,228 @@
+@import '../sprites/head-icons';
+.head-menu {
+    position: relative;
+    padding-top: 20px;
+    padding-right: 45px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    height: 87px;
+    background: linear-gradient(to right, #2b5266 0%, #2b5266 15%, #2b5266 30%, #3e768d 100%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    &:before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        height: 90px;
+        width: 100%;
+        min-width: 1280px;
+        background: linear-gradient(
+            to right,
+            #3b596b 0%,
+            #3d5c6f 15%,
+            #3f6274 30%,
+            #467286 65%,
+            #48788d 100%
+        );
+    }
+    .head-name {
+        position: relative;
+        font-weight: 200;
+        font-size: 38px;
+        color: #d8dadd;
+        .head-hide {
+            position: absolute;
+            left: 50%;
+            margin-left: -22px;
+            bottom: -24px;
+            border: none;
+            width: 44px;
+            height: 9px;
+            border-radius: 3px;
+            background-color: #446e82;
+            cursor: pointer;
+            outline: none;
+            &:before {
+                position: absolute;
+                top: 4px;
+                left: 17px;
+                width: 6px;
+                height: 1px;
+                transform: rotate(-45deg);
+                background-color: #d8dadd;
+                content: '';
+            }
+            &:after {
+                position: absolute;
+                top: 4px;
+                left: 21px;
+                width: 6px;
+                height: 1px;
+                transform: rotate(45deg);
+                background-color: #d8dadd;
+                content: '';
+            }
+        }
+    }
+
+    .head-button {
+        position: relative;
+        appearance: none;
+        border: none;
+        background-color: transparent;
+        outline: none;
+        width: 41px;
+        height: 41px;
+        cursor: pointer;
+        &:hover {
+            opacity: 0.8;
+        }
+        &:active {
+            opacity: 0.9;
+        }
+        &:before {
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+        &__settings {
+            &:before {
+                @include retina-sprite($settings-group);
+            }
+        }
+        &__undo {
+            &:before {
+                top: 6px;
+                left: 8px;
+                @include retina-sprite($undo-group);
+            }
+        }
+        &__redo {
+            &:before {
+                top: 6px;
+                left: 8px;
+                @include retina-sprite($redo-group);
+            }
+        }
+        &__save {
+            top: 6px;
+            left: 6px;
+            &:before {
+                @include retina-sprite($save-group);
+            }
+        }
+        &__ruler {
+            top: 4px;
+            left: 4px;
+            &:before {
+                @include retina-sprite($ruler-group);
+            }
+        }
+        &__mobile {
+            top: 2px;
+            left: 9px;
+            &:before {
+                @include retina-sprite($mobile-group);
+            }
+        }
+    }
+    .head-avatar {
+        max-width: 56px;
+        max-height: 53px;
+        cursor: pointer;
+        img {
+            width: 56px;
+            height: 53px;
+        }
+    }
+    .head-add {
+        position: relative;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-right: 52px;
+        padding-left: 74px;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 50px;
+        font-size: 16px;
+        border: 1px solid #2b88d8;
+        background-color: #2b88d8;
+        font-weight: 600;
+        letter-spacing: 3px;
+        outline: none;
+        cursor: pointer;
+        &:hover {
+            background-color: #4f9ddf;
+            border-color: #4f9ddf;
+        }
+        &:focus {
+            border-color: #bcd8f0;
+        }
+        &:before {
+            position: absolute;
+            top: 50%;
+            left: 37px;
+            margin-top: -3px;
+            background-color: #fff;
+            width: 17px;
+            height: 3px;
+            content: '';
+        }
+        &:after {
+            position: absolute;
+            top: 50%;
+            left: 44px;
+            margin-top: -9.5px;
+            background-color: #fff;
+            width: 3px;
+            height: 17px;
+            content: '';
+        }
+    }
+    .head-examine {
+        position: relative;
+        padding-top: 18px;
+        padding-bottom: 18px;
+        padding-right: 52px;
+        padding-left: 74px;
+        border: none;
+        color: #fff;
+        text-transform: uppercase;
+        border-radius: 50px;
+        font-size: 16px;
+        border: 1px solid #ffffff;
+        background-color: #ffffff;
+        color: #2b88d8;
+        font-weight: 600;
+        letter-spacing: 3px;
+        outline: none;
+        cursor: pointer;
+        &:hover {
+            color: #2a98f7;
+            &:before {
+                opacity: 0.8;
+            }
+        }
+        &:active {
+            background-color: silver;
+            &:before {
+                opacity: 0.9;
+            }
+        }
+        &:focus {
+            border-color: #2b88d8;
+        }
+        &:before {
+            position: absolute;
+            top: 17px;
+            left: 30px;
+            content: '';
+            @include retina-sprite($eye-group);
+        }
+    }
+}
