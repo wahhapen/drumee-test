@@ -27,5 +27,8 @@
     "normalize.css": "^7.0.0",
     "path": "^0.12.7",
     "run-sequence": "^2.0.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "1.2.11"
   }
 }
